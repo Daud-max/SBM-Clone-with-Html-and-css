@@ -1,0 +1,158 @@
+
+
+.footer-main {
+    background-color: #121921;
+  }
+  .hero .bg-img {
+    height: 500px;
+    position: relative;
+  }
+  .hero video {
+    width: 100%;
+    object-fit: cover;
+    height: 500px;
+  }
+  .hero .bg-transparent {
+    position: absolute;
+    top: 0;
+    height: 500px;
+  }
+  .footer-main {
+    display: flex;
+    color: white;
+    width: 100%;
+    height: 260px;
+  }
+  .footer-main .f-div {
+    width: 33.3%;
+    padding-left: 100px;
+    padding-top: 60px;
+  }
+  .footer-main h1 {
+    margin: 0;
+    font-weight: 500;
+    padding-bottom: 10px;
+  }
+  .f-div a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    /* padding-left: 5px; */
+    padding-right: 5px;
+  }
+  .f-div a:hover {
+    color: #6b6767;
+  }
+  /* styling for the hero section  */
+  .hero-section .bg-img{
+    width: 100%;
+    height: 200px;
+    background-image:url("../img/Educational-Trust.jpg") ;
+    background-size: cover;
+  }
+  .bg-transparent{
+    background-color: #000000ba;
+    width: 100%;
+    height: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .bg-transparent h1{
+    color: white;
+    font-size: 50px;
+   
+  }
+
+/* ____first block Css_____ */
+.container{
+    height: 500px;
+    width: 100%;
+
+}
+.container .first-block{
+    width: 100%;
+    height: 350px;
+    display: flex;
+}
+.first-block .text{
+    padding: 60px 30px 60px 90px;
+    margin-top: 40px;
+    line-height: 29px;
+   
+
+}
+.text h1{
+    font-size: 35px;
+    font-weight: 600;
+}
+.text ol{
+    margin: 2px;
+    padding: 13px;
+    
+}
+
+.first-block .iframe{
+    padding: 60px 60px 60px 20px;
+    margin-top: 40px;
+   
+
+}
+.iframe iframe{
+    height:250px;
+    border-radius: 5px;
+
+}
+.second-block img{
+    float: right;
+    width: 500px;
+    height: 350px;
+    margin: 20px 50px 10px 10px;
+    box-shadow: 0 3px 10px 4px rgba(0, 0, 0, .15);
+    border-radius: 7px;
+    object-fit: cover;
+}
+body p,li{
+    font-size: 19px;
+}
+.second-block h1{
+    font-size: 35px;
+    font-weight: 600;
+    padding-left: 90px;
+}
+.second-block p{
+    padding-left: 90px;
+    margin-right: 35px;
+}
+.third-block{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.gallery-card iframe{
+  width: 20%;
+  height: 200px;
+  padding: 22px;
+  border-radius: 10px !important;
+
+}
+iframe:hover{
+  transition: 1s;
+  transform: scale(1.1);
+}
+.gallery h1{
+  text-align: center;
+  font-size: 35px;
+    font-weight: 600;
+}
+
+
+.gallery .gallery-card{
+display: flex;
+width: 65%;
+height:250px ;
+margin: 10px 220px;
+box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+overflow: hidden;
+border-radius: 8px;
+
+}

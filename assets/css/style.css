@@ -1,0 +1,224 @@
+
+.hero h1 {
+  margin: 0;
+  font-size: 50px;
+}
+.hero p {
+  font-size: 25px;
+}
+.hero .bg-img {
+  height: 550px;
+  width: 100%;
+}
+.hero .bg-transparent {
+  background-color: #000000a4;
+  height: 550px;
+  width: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+button {
+  background-color: #28a745;
+  border: 1px solid #28a745;
+  color: #fff;
+  padding: 12px 20px;
+  border-radius: 8px;
+  margin-left: 20px;
+}
+
+.hero-section {
+  display: flex;
+  align-items: center;
+}
+
+.secondsection .card {
+  width: 33.33%;
+  overflow: hidden;
+}
+.education img {
+  width: 100%;
+}
+.education {
+  padding: 20px 30px;
+}
+nav .links a:hover {
+  background-color: white;
+  color: green;
+}
+.education h1 {
+  font-size: 40px;
+  margin: 0;
+}
+.education h3 {
+  letter-spacing: 5px;
+  margin: 0;
+  margin-top: 20px;
+}
+.education h4 {
+  letter-spacing: 3px;
+}
+.text-center {
+  text-align: center;
+}
+/* style for the second HeroSection */
+.secondsection {
+ 
+}
+.projects .bg-clr {
+  width: 100%;
+  padding-bottom: 20px;
+  background-color: #000000c2;
+}
+.projects h1 {
+  color: white;
+  text-align: center;
+  padding-top: 60px;
+  font-size: 40px;
+}
+.projects .bg-img{
+  width: 100%;
+  background-image: url("../img/student-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.top-row {
+  display: flex;
+  margin: 0px 90px;
+}
+.projects .card {
+  color: white;
+  border-radius: 20px;
+  background-color: #28a746a1;
+  width: 33.3%;
+  padding-bottom: 15px;
+  margin: 0px 10px;
+  text-align: center;
+  overflow: hidden;
+}
+@media(max-width: 1200px) {
+  .top-row {
+    display: block;
+  }
+  .projects .card {
+    width: 50%;
+  }
+  
+}
+.projects .card img{
+  width: 100%;
+  height: 250px;
+}
+.secondsection .card .card-body{
+  height: 170px;
+  padding: 10px 30px;
+}
+
+.second-row {
+  display: flex;
+  margin: 50px 90px;
+}
+.secondsection .card img {
+  width: 100%;
+  height: 203px;
+  object-fit: cover;
+}
+.secondsection .card:hover {
+  background-color: #28a746ce;
+}
+
+.mini-card , .donation .container{
+    padding: 12px 100px;
+    display: flex;
+    margin: 30px 0px;
+    /* justify-content: center; */
+}
+.mini-card .card ,  .donation .card{
+    width: 50%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: center;
+    padding: 20px;
+    margin: 0px 12px;
+}
+.donation .card-text{
+  width: 50%;
+}
+.donation .card-img{
+    /* margin: 30px; */
+    padding: 20px;
+    width: 50%;
+}   
+/* .card-img img{
+  width: 100%;
+
+} */
+.donation .card{
+    text-align: left;
+    padding: 30px;
+}
+.mini-card .card-body{
+    height: 150px;
+}
+.donation h1 {
+    text-align: center;
+    font-size: 30px;
+}
+.donation .card-body{
+    display: flex;
+}
+.education-right {
+  padding-left: 20px;
+}
+
+.footer-main {
+  background-color: #121921;
+}
+.hero .bg-img {
+  height: 500px;
+  position: relative;
+}
+.hero video {
+  width: 100%;
+  object-fit: cover;
+  height: 500px;
+}
+.hero .bg-transparent {
+  position: absolute;
+  top: 0;
+  height: 500px;
+}
+.footer-main {
+  display: flex;
+  color: white;
+  width: 100%;
+  height: 260px;
+}
+.footer-main .f-div {
+  width: 33.3%;
+  padding-left: 100px;
+  padding-top: 60px;
+}
+.footer-main h1 {
+  margin: 0;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+.f-div a {
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  /* padding-left: 5px; */
+  padding-right: 5px;
+}
+.f-div a:hover {
+  color: #6b6767;
+}
+
+
+.secondtransparent .card:hover{
+  transition: 2s;
+  transform: scale(1.1);
+}

@@ -1,0 +1,129 @@
+
+.footer-main {
+    background-color: #121921;
+  }
+  .hero .bg-img {
+    height: 500px;
+    position: relative;
+  }
+  .hero video {
+    width: 100%;
+    object-fit: cover;
+    height: 500px;
+  }
+  .hero .bg-transparent {
+    position: absolute;
+    top: 0;
+    height: 500px;
+  }
+  .footer-main {
+    display: flex;
+    color: white;
+    width: 100%;
+    height: 260px;
+  }
+  .footer-main .f-div {
+    width: 33.3%;
+    padding-left: 100px;
+    padding-top: 60px;
+  }
+  .footer-main h1 {
+    margin: 0;
+    font-weight: 500;
+    padding-bottom: 10px;
+  }
+  .f-div a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    /* padding-left: 5px; */
+    padding-right: 5px;
+  }
+  .f-div a:hover {
+    color: #6b6767;
+  }
+  /* styling for the hero section  */
+  .hero-section .bg-img{
+    width: 100%;
+    height: 200px;
+    background-image:url("../img/Educational-Trust.jpg") ;
+    background-size: cover;
+  }
+  .bg-transparent{
+    background-color: #000000ba;
+    width: 100%;
+    height: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .bg-transparent h1{
+    color: white;
+    font-size: 50px;
+   
+  }
+  button {
+    background-color: #28a745;
+    border: 1px solid #28a745;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 8px;
+    margin-left: 3px;
+    margin-top: 4px;
+  }
+  .outer-main{
+    display: flex;
+    height: 550px;
+  }
+  .card{
+    width: 50%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 1px solid #c0bdbd;
+    margin: 50px 40px 50px 80px ;
+    padding: 15px;
+
+    border-radius: 5px;
+
+  }
+  form{
+    height: 380px;
+    padding-right:20px ;
+  }
+  input{
+    width: 100%;
+    font-size: 20px;
+    padding: 8px;
+    margin: 10px 3px;
+    border: 1px solid grey;
+    border-radius: 4px;
+
+    
+  }
+  textarea{
+    width: 100%;
+    padding: 8px;
+    margin: 10px 3px;
+    height: 70px;
+  }
+  .whatsapp , .email{
+    display: flex;
+  }
+  .text{
+    margin-left:20px ;
+  }
+  
+hr{
+    background-color: grey;
+}
+button:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+::placeholder{
+  font-size: 15px;
+}
+
+::-webkit-scrollbar{
+  height: 80px;
+}
